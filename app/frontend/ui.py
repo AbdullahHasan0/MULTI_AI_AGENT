@@ -11,6 +11,7 @@ st.set_page_config(page_title="MULTI AI AGENT", layout="centered")
 st.title("MULTI AI AGENT using Groq and Tavily")
 
 system_prompt = st.text_area("Define Your AI Agent",height=70)
+system_prompt += "\n Don't answer any question if question is out of your domain."
 selected_model = st.selectbox("Select AI Model", settings.ALLOWED_MODEL_NAMES)
 
 allow_web_search = st.checkbox("Allow Web Search")
