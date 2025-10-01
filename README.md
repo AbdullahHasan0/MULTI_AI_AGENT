@@ -110,3 +110,10 @@ graph TD
 | App Running in Browser (FastAPI/Agents UI) | ![App UI](images/app.png) |
 
 
+## Future Improvements
+
+- Add support for more AI agents (e.g., vision models).
+- Implement Redis for caching agent outputs.
+- Add monitoring & logging dashboards with Grafana.
+-Extend deployment to Kubernetes.
+
