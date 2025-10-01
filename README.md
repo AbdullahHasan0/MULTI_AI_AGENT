@@ -95,7 +95,7 @@ graph TD
 - Jenkins automated the deployment pipeline.
 - Exposed via public IP on port 8501.
 
-### Note: The live app has been shut down to avoid AWS costs. You can redeploy using the instructions in this repo.
+### Note: The live app has been shut down to avoid AWS costs. You can run the application locally using the setup instructions above.
 
 ## 🖼 Screenshots
 
