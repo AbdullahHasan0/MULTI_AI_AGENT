@@ -63,7 +63,7 @@ graph TD
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/MULTI-AI-AGENT-PROJECTS.git
+   git clone https://github.com/AbdullahHasan0/MULTI_AI_AGENT.git
    cd MULTI-AI-AGENT-PROJECTS
    ```
 2. **Create Virtual Environment**
@@ -72,11 +72,19 @@ graph TD
     source venv/bin/activate    # Mac/Linux
     venv\Scripts\activate       # Windows
    ```
-3. **Create Virtual Environment**
+3. **Install Dependencies**
    ```bash
-    Install Dependencies
+    pip install -r requirements.txt
    ```
-4. **Run Locally**
+4. **Set up API keys**
+   - Get Groq API key for the LLM
+   - Get Trivily API key for web search
+   - Add them to your environment variables or .env file:
+   ```bash
+   GROQ_API_KEY=your_groq_api_key
+   TRIVILY_API_KEY=your_trivily_api_key
+   ```
+5. **Run the App**
    ```bash
    python app/main.py
    ```
