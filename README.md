@@ -103,9 +103,10 @@ graph TD
 
 | Stage | Screenshot |
 |-------|------------|
-| ![Jenkins Pipeline](images/jenkins1.png) | ![Jenkins Console](images/jenkins2.png) |
-| SonarQube Dashboard (Project Analysis) | ![SonarQube Dashboard](images/sonarqube_dashboard.png) |
-| AWS ECR Repository with Docker Image | ![AWS ECR](images/aws_ecr.png) |
-| AWS ECS Task Running | ![AWS ECS](images/aws_ecs.png) |
-| App Running in Browser (FastAPI/Agents UI) | ![App UI](images/app_ui.png) |
+| Jenkins Pipeline Success <br> Console Output | ![Jenkins Pipeline](images/jenkins1.png) <br> ![Jenkins Console](images/jenkins2.png) |
+| SonarQube Dashboard (Project Analysis) | ![SonarQube Dashboard](images/sonarqube.png) |
+| AWS ECR Repository with Docker Image | ![AWS ECR](images/ecr.png) |
+| AWS ECS Task Running | ![AWS ECS](images/ecs.png) |
+| App Running in Browser (FastAPI/Agents UI) | ![App UI](images/app.png) |
+
 
