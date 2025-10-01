@@ -117,3 +117,5 @@ graph TD
 - Add monitoring & logging dashboards with Grafana.
 -Extend deployment to Kubernetes.
 
+## License
+This project is licensed under the MIT License.
