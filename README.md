@@ -11,7 +11,7 @@
 ![Status](https://img.shields.io/badge/Live-Demo%20Offline-lightgrey?logo=cloud)
 
 A production-grade multi-agent AI system built with FastAPI + LangChain + LangGraph, deployed using a complete MLOps pipeline:
-Jenkins → SonarQube → Trivy → Docker → AWS ECR → AWS ECS Fargate.
+Jenkins → SonarQube → Docker → AWS ECR → AWS ECS Fargate.
 
 This project demonstrates real-world CI/CD, security scanning, and cloud deployment for AI applications.
 
